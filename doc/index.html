@@ -25,12 +25,12 @@
  <tbody>
  <tr style="height: 56px;">
   
-  <td id="projectlogo"><img alt="Logo" src="Ofeli.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="ofeli.png"/></td>
   
   
   <td style="padding-left: 0.5em;">
    <div id="projectname">Ofeli
-   &#160;<span id="projectnumber">1.0.4</span>
+   &#160;<span id="projectnumber">1.0.5</span>
    </div>
    <div id="projectbrief">an Open, Fast and Efficient Level Set Implementation</div>
   </td>
@@ -79,7 +79,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="textblock"><h2><a class="anchor" id="intro_sec"></a>
 Introduction</h2>
 <p>Ofeli, as an acronym for <b>O</b>pen, <b>F</b>ast and <b>E</b>fficient <b>L</b>evel set <b>I</b>mplementation, demonstrates how to operate an image segmentation algorithm of Y. Shi and W. C. Karl <b>[1],</b> using a discrete approach for the approximation of level-set-based curve evolution (implicit active contours). </p>
-<p>This is a novel (2005) and fast algorithm without the need of solving partial differential equations (PDE) while preserving the advantages of level set methods, such as the automatic handling of topological changes. Considerable speedups (×100) have been demonstrated as compared to PDE-based narrow band level-set implementations.</p>
+<p>This is a novel (2005) and fast algorithm without the need of solving partial differential equations (PDE) while preserving the advantages of level set methods, such as the automatic handling of topological changes. Considerable speedups (×100) have been demonstrated as compared to PDE-based narrow band level-set implementations. </p>
+<p>The Home Page of Ofeli can be found at : <a href="http://code.google.com/p/ofeli/">http://code.google.com/p/ofeli/</a> .</p>
 <h2><a class="anchor" id="structure_sec"></a>
 Structure</h2>
 <p>In this project, the <b>G</b>raphical <b>U</b>ser <b>I</b>nterface (GUI) is clearly separated of the image processing part.</p>
@@ -97,7 +98,7 @@ Structure</h2>
 </ul>
 </li>
 <li>file <a class="el" href="hausdorff__distance_8cpp_source.html">hausdorff_distance.cpp</a> with the class <a class="el" href="classofeli_1_1_hausdorff_distance.html" title="La classe HausdorffDistance permet de calculer la distance de Hausdorff et également la distance de H...">ofeli::HausdorffDistance</a></li>
-<li>file <a class="el" href="filters_8cpp_source.html">filters.cpp</a> with the class <a class="el" href="classofeli_1_1_filters.html">ofeli::Filters</a> (dependant of the Boost library)</li>
+<li>file <a class="el" href="filters_8cpp_source.html">filters.cpp</a> with the class <a class="el" href="classofeli_1_1_filters.html" title="La classe Filters permet de filtrer des buffers images.">ofeli::Filters</a> (dependant of the Boost library)</li>
 <li>file <a class="el" href="filters__rgb_8cpp_source.html">filters_rgb.cpp</a> with class <a class="el" href="classofeli_1_1_filters_r_g_b.html" title="La classe FiltersRGB permet de filtrer des buffers images.">ofeli::FiltersRGB</a> (dependant of the Boost library)</li>
 </ul>
 <h2><a class="anchor" id="reusability_sec"></a>

@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>Ofeli: src ofeli/filters_rgb.cpp Source File</title>
+<title>Ofeli: C:/Users/fabien.bessy/Documents/src ofeli/sources/core/filters_rgb.cpp Source File</title>
 
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
@@ -25,12 +25,12 @@
  <tbody>
  <tr style="height: 56px;">
   
-  <td id="projectlogo"><img alt="Logo" src="Ofeli.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="ofeli.png"/></td>
   
   
   <td style="padding-left: 0.5em;">
    <div id="projectname">Ofeli
-   &#160;<span id="projectnumber">1.0.4</span>
+   &#160;<span id="projectnumber">1.0.5</span>
    </div>
    <div id="projectbrief">an Open, Fast and Efficient Level Set Implementation</div>
   </td>
@@ -78,7 +78,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 <div class="header">
   <div class="headertitle">
-<div class="title">src ofeli/filters_rgb.cpp</div>  </div>
+<div class="title">C:/Users/fabien.bessy/Documents/src ofeli/sources/core/filters_rgb.cpp</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="comment">/****************************************************************************</span>
@@ -130,7 +130,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a name="l00047"></a>00047 <span class="keyword">namespace </span>ofeli {
 <a name="l00048"></a>00048 
 <a name="l00082"></a>00082 
-<a name="l00084"></a><a class="code" href="classofeli_1_1_filters_r_g_b.html#abf850cac66854684343d83ed1b65d463">00084</a> <a class="code" href="classofeli_1_1_filters_r_g_b.html#abf850cac66854684343d83ed1b65d463" title="Constructeur prenant en paramètre le pointeur image et les dimensions de l&#39;image à filtrer...">FiltersRGB::FiltersRGB</a>(<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span>* img1_rgb, <span class="keywordtype">int</span> width1, <span class="keywordtype">int</span> height1) : img_rgb(img1_rgb), width(width1), height(height1), size(width1*height1), columns_histoR(new int [256*width1]), columns_histoG(new int [256*width1]), columns_histoB(new int [256*width1]), kernel_histoR(new int [256]), kernel_histoG(new int [256]), kernel_histoB(new int [256]) {
+<a name="l00084"></a><a class="code" href="classofeli_1_1_filters_r_g_b.html#abf850cac66854684343d83ed1b65d463">00084</a> <a class="code" href="classofeli_1_1_filters_r_g_b.html#abf850cac66854684343d83ed1b65d463" title="Constructeur prenant en paramètre le pointeur image et les dimensions de l&#39;image � filtrer.">FiltersRGB::FiltersRGB</a>(<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span>* img1_rgb, <span class="keywordtype">int</span> width1, <span class="keywordtype">int</span> height1) : img_rgb(img1_rgb), width(width1), height(height1), size(width1*height1), columns_histoR(new int [256*width1]), columns_histoG(new int [256*width1]), columns_histoB(new int [256*width1]), kernel_histoR(new int [256]), kernel_histoG(new int [256]), kernel_histoB(new int [256]) {
 <a name="l00085"></a>00085 
 <a name="l00086"></a>00086     <span class="keywordflow">if</span>( img1_rgb == NULL ) {
 <a name="l00087"></a>00087         std::cerr &lt;&lt; std::endl &lt;&lt; <span class="stringliteral">&quot;The pointer img1_rgb must be a non-null pointer, it must be allocated.&quot;</span> &lt;&lt; std::endl;
@@ -205,7 +205,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a name="l00158"></a>00158     <span class="comment">//const double dist_sqr[8]={ dd*dd, dy*dy, dd*dd, dx*dx, dx*dx, dd*dd, dy*dy, dd*dd };</span>
 <a name="l00159"></a>00159     <span class="keyword">const</span> <span class="keywordtype">double</span> dist_sqr[8] = { 2.0, 1.0, 2.0, 1.0, 1.0, 2.0, 1.0, 2.0 };
 <a name="l00160"></a>00160 
-<a name="l00161"></a>00161     <span class="comment">// indice allant de 0 à 7 pour accéder aux gradients et coeff des 8 directions</span>
+<a name="l00161"></a>00161     <span class="comment">// indice allant de 0 �  7 pour accéder aux gradients et coeff des 8 directions</span>
 <a name="l00162"></a>00162     <span class="keywordtype">int</span> index;
 <a name="l00163"></a>00163     <span class="comment">// somme calculée sur les 8 directions pour la résolution de l&#39;EDP</span>
 <a name="l00164"></a>00164     <span class="keywordtype">double</span> sigma;
@@ -605,7 +605,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a name="l00563"></a>00563             }
 <a name="l00564"></a>00564         }
 <a name="l00565"></a>00565 
-<a name="l00567"></a>00567         <span class="comment">// midle processed //</span>
+<a name="l00567"></a>00567         <span class="comment">// center processed //</span>
 <a name="l00569"></a>00569 <span class="comment"></span>
 <a name="l00570"></a>00570         <span class="comment">// rightward moving in the image</span>
 <a name="l00571"></a>00571         <span class="keywordflow">for</span>( x = border_length+1; x &lt;= width-border_length-2; x++ ) {
@@ -807,7 +807,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a name="l00773"></a>00773             }
 <a name="l00774"></a>00774         }
 <a name="l00775"></a>00775 
-<a name="l00777"></a>00777         <span class="comment">// midle processed //</span>
+<a name="l00777"></a>00777         <span class="comment">// center processed //</span>
 <a name="l00779"></a>00779 <span class="comment"></span>
 <a name="l00780"></a>00780         <span class="comment">// rightward moving in the image</span>
 <a name="l00781"></a>00781         <span class="keywordflow">for</span>( x = border_length+1; x &lt;= width-border_length-2; x++ ) {
@@ -993,7 +993,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a name="l00967"></a>00967             }
 <a name="l00968"></a>00968         }
 <a name="l00969"></a>00969 
-<a name="l00971"></a>00971         <span class="comment">// midle processed //</span>
+<a name="l00971"></a>00971         <span class="comment">// center processed //</span>
 <a name="l00973"></a>00973 <span class="comment"></span>
 <a name="l00974"></a>00974         <span class="comment">// rightward moving in the image</span>
 <a name="l00975"></a>00975         <span class="keywordflow">for</span>( x = border_length+1; x &lt;= width-border_length-2; x++ ) {
@@ -1445,7 +1445,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a name="l01429"></a>01429             }
 <a name="l01430"></a>01430         }
 <a name="l01431"></a>01431 
-<a name="l01433"></a>01433         <span class="comment">// midle processed //</span>
+<a name="l01433"></a>01433         <span class="comment">// center processed //</span>
 <a name="l01435"></a>01435 <span class="comment"></span>
 <a name="l01436"></a>01436         <span class="comment">// rightward moving in the image</span>
 <a name="l01437"></a>01437         <span class="keywordflow">for</span>( x = border_length+1; x &lt;= width-border_length-2; x++ ) {
@@ -1594,7 +1594,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a name="l01586"></a>01586             }
 <a name="l01587"></a>01587         }
 <a name="l01588"></a>01588 
-<a name="l01590"></a>01590         <span class="comment">// midle processed //</span>
+<a name="l01590"></a>01590         <span class="comment">// center processed //</span>
 <a name="l01592"></a>01592 <span class="comment"></span>
 <a name="l01593"></a>01593         <span class="comment">// rightward moving in the image</span>
 <a name="l01594"></a>01594         <span class="keywordflow">for</span>( x = border_length+1; x &lt;= width-border_length-2; x++ ) {
@@ -1727,7 +1727,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a name="l01727"></a>01727             }
 <a name="l01728"></a>01728         }
 <a name="l01729"></a>01729 
-<a name="l01731"></a>01731         <span class="comment">// midle processed //</span>
+<a name="l01731"></a>01731         <span class="comment">// center processed //</span>
 <a name="l01733"></a>01733 <span class="comment"></span>
 <a name="l01734"></a>01734         <span class="comment">// rightward moving in the image</span>
 <a name="l01735"></a>01735         <span class="keywordflow">for</span>( x = border_length+1; x &lt;= width-border_length-2; x++ ) {
@@ -1999,7 +1999,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a name="l02007"></a>02007             }
 <a name="l02008"></a>02008         }
 <a name="l02009"></a>02009 
-<a name="l02011"></a>02011         <span class="comment">// midle processed //</span>
+<a name="l02011"></a>02011         <span class="comment">// center processed //</span>
 <a name="l02013"></a>02013 <span class="comment"></span>
 <a name="l02014"></a>02014         <span class="comment">// rightward moving in the image</span>
 <a name="l02015"></a>02015         <span class="keywordflow">for</span>( x = border_length+1; x &lt;= width-border_length-2; x++ ) {
@@ -2148,7 +2148,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a name="l02164"></a>02164             }
 <a name="l02165"></a>02165         }
 <a name="l02166"></a>02166 
-<a name="l02168"></a>02168         <span class="comment">// midle processed //</span>
+<a name="l02168"></a>02168         <span class="comment">// center processed //</span>
 <a name="l02170"></a>02170 <span class="comment"></span>
 <a name="l02171"></a>02171         <span class="comment">// rightward moving in the image</span>
 <a name="l02172"></a>02172         <span class="keywordflow">for</span>( x = border_length+1; x &lt;= width-border_length-2; x++ ) {
@@ -2281,7 +2281,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a name="l02305"></a>02305             }
 <a name="l02306"></a>02306         }
 <a name="l02307"></a>02307 
-<a name="l02309"></a>02309         <span class="comment">// midle processed //</span>
+<a name="l02309"></a>02309         <span class="comment">// center processed //</span>
 <a name="l02311"></a>02311 <span class="comment"></span>
 <a name="l02312"></a>02312         <span class="comment">// rightward moving in the image</span>
 <a name="l02313"></a>02313         <span class="keywordflow">for</span>( x = border_length+1; x &lt;= width-border_length-2; x++ ) {
@@ -2865,12 +2865,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a name="l02908"></a>02908     <span class="keywordtype">int</span> right = end+1;
 <a name="l02909"></a>02909     <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> pivot = array[begin];
 <a name="l02910"></a>02910 
-<a name="l02911"></a>02911     <span class="comment">/* si le tableau est de longueur nulle, il n&#39;y a rien à faire. */</span>
+<a name="l02911"></a>02911     <span class="comment">/* si le tableau est de longueur nulle, il n&#39;y a rien �  faire. */</span>
 <a name="l02912"></a>02912     <span class="keywordflow">if</span>( begin &gt;= end )
 <a name="l02913"></a>02913         <span class="keywordflow">return</span>;
 <a name="l02914"></a>02914 
-<a name="l02915"></a>02915     <span class="comment">/* sinon, on parcourt le tableau, une fois de droite à gauche, et une</span>
-<a name="l02916"></a>02916 <span class="comment">       autre de gauche à droite, à la recherche d&#39;éléments mal placés,</span>
+<a name="l02915"></a>02915     <span class="comment">/* sinon, on parcourt le tableau, une fois de droite �  gauche, et une</span>
+<a name="l02916"></a>02916 <span class="comment">       autre de gauche �  droite, �  la recherche d&#39;éléments mal placés,</span>
 <a name="l02917"></a>02917 <span class="comment">       que l&#39;on permute. Si les deux parcours se croisent, on arrête. */</span>
 <a name="l02918"></a>02918     <span class="keywordflow">while</span>( 1 )
 <a name="l02919"></a>02919     {
@@ -3100,7 +3100,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a name="l03148"></a>03148             }
 <a name="l03149"></a>03149         }
 <a name="l03150"></a>03150 
-<a name="l03152"></a>03152         <span class="comment">// midle processed //</span>
+<a name="l03152"></a>03152         <span class="comment">// center processed //</span>
 <a name="l03154"></a>03154 <span class="comment"></span>
 <a name="l03155"></a>03155         <span class="comment">// rightward moving in the image</span>
 <a name="l03156"></a>03156         <span class="keywordflow">for</span>( x = border_length+1; x &lt;= width-border_length-2; x++ ) {
@@ -3268,7 +3268,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a name="l03324"></a>03324             }
 <a name="l03325"></a>03325         }
 <a name="l03326"></a>03326 
-<a name="l03328"></a>03328         <span class="comment">// midle processed //</span>
+<a name="l03328"></a>03328         <span class="comment">// center processed //</span>
 <a name="l03330"></a>03330 <span class="comment"></span>
 <a name="l03331"></a>03331         <span class="comment">// rightward moving in the image</span>
 <a name="l03332"></a>03332         <span class="keywordflow">for</span>( x = border_length+1; x &lt;= width-border_length-2; x++ ) {
@@ -3420,7 +3420,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a name="l03484"></a>03484             }
 <a name="l03485"></a>03485         }
 <a name="l03486"></a>03486 
-<a name="l03488"></a>03488         <span class="comment">// midle processed //</span>
+<a name="l03488"></a>03488         <span class="comment">// center processed //</span>
 <a name="l03490"></a>03490 <span class="comment"></span>
 <a name="l03491"></a>03491         <span class="comment">// rightward moving in the image</span>
 <a name="l03492"></a>03492         <span class="keywordflow">for</span>( x = border_length+1; x &lt;= width-border_length-2; x++ ) {
@@ -3635,7 +3635,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a name="l03706"></a>03706         xBGR = <a class="code" href="classofeli_1_1_filters_r_g_b.html#a5b479acb8c3443c1a511a05fb6425e0e" title="pointer on the current result image">filtered</a>[i];
 <a name="l03707"></a>03707 
 <a name="l03708"></a>03708         <span class="comment">// img = img + X * img</span>
-<a name="l03709"></a>03709         <span class="comment">// avec X une variable aleatoire qui suit une loi uniforme centrée (moyenne à 0)</span>
+<a name="l03709"></a>03709         <span class="comment">// avec X une variable aleatoire qui suit une loi uniforme centrée (moyenne �  0)</span>
 <a name="l03710"></a>03710         <span class="comment">// et d&#39;ecart-type sigma</span>
 <a name="l03711"></a>03711         <span class="comment">// l&#39;intervalle de la distribution uniforme correspond donc a sigma * sqrt(12)</span>
 <a name="l03712"></a>03712         filtered_intR = int(get_1st_uchar_from_uint(xBGR)) + int (<span class="keywordtype">double</span>(get_1st_uchar_from_uint(xBGR)) * sigma * sqrt(12) * (var_uni()-0.5));

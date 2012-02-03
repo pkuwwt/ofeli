@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-<title>Ofeli: src ofeli/imageviewer.cpp Source File</title>
+<title>Ofeli: C:/Users/fabien.bessy/Documents/src ofeli/sources/gui/imageviewer.cpp Source File</title>
 
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
@@ -25,12 +25,12 @@
  <tbody>
  <tr style="height: 56px;">
   
-  <td id="projectlogo"><img alt="Logo" src="Ofeli.png"/></td>
+  <td id="projectlogo"><img alt="Logo" src="ofeli.png"/></td>
   
   
   <td style="padding-left: 0.5em;">
    <div id="projectname">Ofeli
-   &#160;<span id="projectnumber">1.0.4</span>
+   &#160;<span id="projectnumber">1.0.5</span>
    </div>
    <div id="projectbrief">an Open, Fast and Efficient Level Set Implementation</div>
   </td>
@@ -78,7 +78,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div>
 <div class="header">
   <div class="headertitle">
-<div class="title">src ofeli/imageviewer.cpp</div>  </div>
+<div class="title">C:/Users/fabien.bessy/Documents/src ofeli/sources/gui/imageviewer.cpp</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="fragment"><pre class="fragment"><a name="l00001"></a>00001 <span class="comment">/****************************************************************************</span>
@@ -172,7 +172,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a name="l00102"></a>00102 
 <a name="l00103"></a>00103     <span class="comment">// titre de la fenêtre principale</span>
 <a name="l00104"></a>00104     setWindowTitle(tr(<span class="stringliteral">&quot;Ofeli&quot;</span>));
-<a name="l00105"></a>00105     <span class="comment">//setWindowIcon(QIcon(&quot;:Ofeli.png&quot;));</span>
+<a name="l00105"></a>00105     <span class="comment">//setWindowIcon(QIcon(&quot;:ofeli.png&quot;));</span>
 <a name="l00106"></a>00106 
 <a name="l00107"></a>00107     <span class="comment">//resize(600,375);</span>
 <a name="l00108"></a>00108     QSettings <a class="code" href="class_image_viewer.html#a96fd9d51e2d031d3f5b33b65d4ff9a24" title="Fonction appelée lors de l&#39;ouverture de la fenêtre de configuration et valider ou refuser les changem...">settings</a>;
@@ -1008,7 +1008,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a name="l00953"></a>00953     imag3-&gt;setTextInteractionFlags(Qt::TextSelectableByMouse | Qt::LinksAccessibleByMouse | Qt::LinksAccessibleByKeyboard);
 <a name="l00954"></a>00954 
 <a name="l00955"></a>00955     QLabel* icon_label = <span class="keyword">new</span> QLabel(<span class="keyword">this</span>);
-<a name="l00956"></a>00956     QImage icon(<span class="stringliteral">&quot;:Ofeli.png&quot;</span>);
+<a name="l00956"></a>00956     QImage icon(<span class="stringliteral">&quot;:ofeli.png&quot;</span>);
 <a name="l00957"></a>00957     QPixmap icon_pixmap=QPixmap::fromImage(icon);
 <a name="l00958"></a>00958     icon_label-&gt;setPixmap(icon_pixmap);
 <a name="l00959"></a>00959     icon_label-&gt;setAlignment(Qt::AlignCenter);
@@ -1482,7 +1482,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a name="l01428"></a>01428         }
 <a name="l01429"></a>01429 
 <a name="l01430"></a>01430         <span class="keywordflow">if</span>( !isRgb1 ) {
-<a name="l01431"></a>01431             filtersd1 = <span class="keyword">new</span> <a class="code" href="classofeli_1_1_filters.html">ofeli::Filters</a>(img1, img_width, img_height);
+<a name="l01431"></a>01431             filtersd1 = <span class="keyword">new</span> <a class="code" href="classofeli_1_1_filters.html" title="La classe Filters permet de filtrer des buffers images.">ofeli::Filters</a>(img1, img_width, img_height);
 <a name="l01432"></a>01432         }
 <a name="l01433"></a>01433         <span class="keywordflow">else</span> {
 <a name="l01434"></a>01434             filtersRGBd1 = <span class="keyword">new</span> <a class="code" href="classofeli_1_1_filters_r_g_b.html" title="La classe FiltersRGB permet de filtrer des buffers images.">ofeli::FiltersRGB</a>(img1_rgb, img_width, img_height);
@@ -1593,69 +1593,69 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a name="l01540"></a>01540 
 <a name="l01541"></a>01541         <span class="keywordflow">if</span>( !isRgb1 ) {
 <a name="l01542"></a>01542 
-<a name="l01543"></a>01543             filters1 = <span class="keyword">new</span> <a class="code" href="classofeli_1_1_filters.html">ofeli::Filters</a>(img1, img_width, img_height);
+<a name="l01543"></a>01543             filters1 = <span class="keyword">new</span> <a class="code" href="classofeli_1_1_filters.html" title="La classe Filters permet de filtrer des buffers images.">ofeli::Filters</a>(img1, img_width, img_height);
 <a name="l01544"></a>01544 
 <a name="l01545"></a>01545             <span class="keywordflow">if</span>( hasPreprocess ) {
 <a name="l01546"></a>01546 
 <a name="l01547"></a>01547                 <span class="keywordflow">if</span>( hasGaussianNoise ) {
-<a name="l01548"></a>01548                     filters1-&gt;<a class="code" href="classofeli_1_1_filters.html#a1d394b3cf175c71ccb8a91c972059755" title="Bruit blanc gaussien (additif) avec en entrée l&#39;écart-type.">gaussian_white_noise</a>(std_noise);
+<a name="l01548"></a>01548                     filters1-&gt;<a class="code" href="classofeli_1_1_filters.html#a0351b099fb22a9397b27ae1661b6c836" title="To add a gaussian white noise with the standard deviation sigma.">gaussian_white_noise</a>(std_noise);
 <a name="l01549"></a>01549                 }
 <a name="l01550"></a>01550                 <span class="keywordflow">if</span>( hasSaltNoise ) {
-<a name="l01551"></a>01551                     filters1-&gt;<a class="code" href="classofeli_1_1_filters.html#af76597a2b0609e0eb3aea5fc3fd15bcd" title="Bruit impulsionnel (poivre et sel) avec en entrée la probabilité d&#39;avoir un pixel noir ou blanc...">salt_pepper_noise</a>(proba_noise);
+<a name="l01551"></a>01551                     filters1-&gt;<a class="code" href="classofeli_1_1_filters.html#a268bff23cc4814805605782aaa9e7fa6" title="To do an impulsional noise with a probabity of noise for each pixel, i.e the density.">salt_pepper_noise</a>(proba_noise);
 <a name="l01552"></a>01552                 }
 <a name="l01553"></a>01553                 <span class="keywordflow">if</span>( hasSpeckleNoise ) {
-<a name="l01554"></a>01554                     filters1-&gt;<a class="code" href="classofeli_1_1_filters.html#a6104f117cf9d3ba9289db11ca308f241" title="Bruit speckle (multiplicatif) avec en entrée l&#39;écart-type.">speckle</a>(std_speckle_noise);
+<a name="l01554"></a>01554                     filters1-&gt;<a class="code" href="classofeli_1_1_filters.html#a04349ff8309e50ed6daf714ff66f3239" title="To perform a speckle noise, a multiplicative noise into the image.">speckle</a>(std_speckle_noise);
 <a name="l01555"></a>01555                 }
 <a name="l01556"></a>01556 
 <a name="l01557"></a>01557                 <span class="keywordflow">if</span>( hasMeanFilt ) {
-<a name="l01558"></a>01558                     filters1-&gt;<a class="code" href="classofeli_1_1_filters.html#a7e9261f6e98705a25dc33d86c2a0ab22" title="Filtre moyenneur avec la taille du masque en entrée.">mean_filtering</a>(kernel_mean_length1);
+<a name="l01558"></a>01558                     filters1-&gt;<a class="code" href="classofeli_1_1_filters.html#a9b4e4ebbfe46d648181eb4193d829972" title="To perform a mean filtering.">mean_filtering</a>(kernel_mean_length1);
 <a name="l01559"></a>01559                 }
 <a name="l01560"></a>01560                 <span class="keywordflow">if</span>( hasGaussianFilt ) {
-<a name="l01561"></a>01561                     filters1-&gt;<a class="code" href="classofeli_1_1_filters.html#a3686ced54f44db8b7f696655284e8d18" title="Filtrage gaussien avec la taille du masque et l&#39;écart-type en entrée.">gaussian_filtering</a>(kernel_gaussian_length1, sigma);
+<a name="l01561"></a>01561                     filters1-&gt;<a class="code" href="classofeli_1_1_filters.html#a22c697b23c38bc3122975e3b923d2bf2" title="To perform a gaussian filtering with the kernel length and the standard deviation c sigma...">gaussian_filtering</a>(kernel_gaussian_length1, sigma);
 <a name="l01562"></a>01562                 }
 <a name="l01563"></a>01563 
 <a name="l01564"></a>01564                 <span class="keywordflow">if</span>( hasMedianFilt ) {
 <a name="l01565"></a>01565                     <span class="keywordflow">if</span>( hasO1algo1 ) {
-<a name="l01566"></a>01566                         filters1-&gt;median_filtering_o1(kernel_median_length1);
+<a name="l01566"></a>01566                         filters1-&gt;<a class="code" href="classofeli_1_1_filters.html#a65e7324360cac62a715a61565399ad85" title="To perform a median filtering based on the Perreault&#39;s algorithm. Complexity is in O(1)...">median_filtering_o1</a>(kernel_median_length1);
 <a name="l01567"></a>01567                     }
 <a name="l01568"></a>01568                     <span class="keywordflow">else</span> {
-<a name="l01569"></a>01569                         filters1-&gt;<a class="code" href="classofeli_1_1_filters.html#a535438d129f42ae1bbadfd2bb3f49397" title="Filtrage médian avec la taille du masque.">median_filtering_oNlogN</a>(kernel_median_length1);
+<a name="l01569"></a>01569                         filters1-&gt;<a class="code" href="classofeli_1_1_filters.html#a2dff0282c738fff489f18d9173cfec24" title="To perform a median filtering based on the quick sort algorithm. Complexity is in O(kernel_length×log...">median_filtering_oNlogN</a>(kernel_median_length1);
 <a name="l01570"></a>01570                     }
 <a name="l01571"></a>01571                 }
 <a name="l01572"></a>01572                 <span class="keywordflow">if</span>( hasAnisoDiff ) {
-<a name="l01573"></a>01573                     filters1-&gt;<a class="code" href="classofeli_1_1_filters.html#ae4a65a5259b3a91a523eefdf2d90b920" title="anisotropic diffusion or Perona-Malik diffusion in 8-connex neighborhood.">anisotropic_diffusion</a>(max_itera1, lambda1, kappa1, aniso_option1);
+<a name="l01573"></a>01573                     filters1-&gt;<a class="code" href="classofeli_1_1_filters.html#ae4a65a5259b3a91a523eefdf2d90b920" title="To perform a Perona-Malik anisotropic diffusion with a 8-connex neighborhood.">anisotropic_diffusion</a>(max_itera1, lambda1, kappa1, aniso_option1);
 <a name="l01574"></a>01574                 }  
 <a name="l01575"></a>01575                 <span class="keywordflow">if</span>( hasOpenFilt ) {
 <a name="l01576"></a>01576                     <span class="keywordflow">if</span>( hasO1morpho1 ) {
-<a name="l01577"></a>01577                         filters1-&gt;<a class="code" href="classofeli_1_1_filters.html#a37c0b4306c46ae839331d0a289a23b3c" title="Ouverture avec un élement structurant carré de taille kernel_length.">opening_o1</a>(kernel_open_length1);
+<a name="l01577"></a>01577                         filters1-&gt;<a class="code" href="classofeli_1_1_filters.html#a157720e1dbc58827f515de30a18b546a" title="To perform an opening with a square structuring element with the Perreault&#39;s algorithm.">opening_o1</a>(kernel_open_length1);
 <a name="l01578"></a>01578                     }
 <a name="l01579"></a>01579                     <span class="keywordflow">else</span> {
-<a name="l01580"></a>01580                         filters1-&gt;<a class="code" href="classofeli_1_1_filters.html#a61d984b292c4b40e362d0f5f73e3db91" title="Ouverture avec un élement structurant carré de taille kernel_length.">opening</a>(kernel_open_length1);
+<a name="l01580"></a>01580                         filters1-&gt;<a class="code" href="classofeli_1_1_filters.html#aab4788b300a3229c61b7cae344eb2142" title="To perform a closing with a square structuring element with a na�ve algorithm.">opening</a>(kernel_open_length1);
 <a name="l01581"></a>01581                     }
 <a name="l01582"></a>01582                 }
 <a name="l01583"></a>01583                 <span class="keywordflow">if</span>( hasCloseFilt ) {
 <a name="l01584"></a>01584                     <span class="keywordflow">if</span>( hasO1morpho1 ) {
-<a name="l01585"></a>01585                         filters1-&gt;<a class="code" href="classofeli_1_1_filters.html#a36bf83ca3c643cc0c50c185d834e382b" title="Fermeture avec un élement structurant carré de taille kernel_length.">closing_o1</a>(kernel_close_length1);
+<a name="l01585"></a>01585                         filters1-&gt;<a class="code" href="classofeli_1_1_filters.html#a04f01e51d6feee4246ede96f767d36c5" title="To perform a closing with a square structuring element with the Perreault&#39;s algorithm.">closing_o1</a>(kernel_close_length1);
 <a name="l01586"></a>01586                     }
 <a name="l01587"></a>01587                     <span class="keywordflow">else</span> {
-<a name="l01588"></a>01588                         filters1-&gt;<a class="code" href="classofeli_1_1_filters.html#aaa36b22e77856f11011ef694aff96b41" title="Fermeture avec un élement structurant carré de taille kernel_length.">closing</a>(kernel_close_length1);
+<a name="l01588"></a>01588                         filters1-&gt;<a class="code" href="classofeli_1_1_filters.html#a01cbcf40deec00feca16f982e3e081a2" title="To perform a closing with a square structuring element with a na�ve algorithm.">closing</a>(kernel_close_length1);
 <a name="l01589"></a>01589                     }
 <a name="l01590"></a>01590                 }
 <a name="l01591"></a>01591                 <span class="keywordflow">if</span>( hasTophatFilt ) {
 <a name="l01592"></a>01592                     <span class="keywordflow">if</span>( isWhiteTophat ) {
 <a name="l01593"></a>01593                         <span class="keywordflow">if</span>( hasO1morpho1 ) {
-<a name="l01594"></a>01594                             filters1-&gt;<a class="code" href="classofeli_1_1_filters.html#a8c4ae6579d2bdf40f5ca9adeaf0bccf4" title="Transformée chapeau haut de forme blanc.">white_top_hat_o1</a>(kernel_tophat_length1);
+<a name="l01594"></a>01594                             filters1-&gt;<a class="code" href="classofeli_1_1_filters.html#a2e3a6b4aa3329dcb021430748c83d992" title="To perform a white top hat transform with a square structuring element with the Perreault&#39;s algorithm...">white_top_hat_o1</a>(kernel_tophat_length1);
 <a name="l01595"></a>01595                         }
 <a name="l01596"></a>01596                         <span class="keywordflow">else</span> {
-<a name="l01597"></a>01597                             filters1-&gt;<a class="code" href="classofeli_1_1_filters.html#ad4fefd8373ef8c4cca7fe2b5b79b43ef" title="Transformée chapeau haut de forme blanc.">white_top_hat</a>(kernel_tophat_length1);
+<a name="l01597"></a>01597                             filters1-&gt;<a class="code" href="classofeli_1_1_filters.html#adaade4352062899127d46615a8e31b42" title="To perform a white top hat transform with a square structuring element with a na�ve algorithm...">white_top_hat</a>(kernel_tophat_length1);
 <a name="l01598"></a>01598                         }
 <a name="l01599"></a>01599                     }
 <a name="l01600"></a>01600                     <span class="keywordflow">else</span> {
 <a name="l01601"></a>01601                         <span class="keywordflow">if</span>( hasO1morpho1 ) {
-<a name="l01602"></a>01602                             filters1-&gt;<a class="code" href="classofeli_1_1_filters.html#ada10c0f9bfda1344681aa93c8eced069" title="Transformée chapeau haut de forme noir.">black_top_hat_o1</a>(kernel_tophat_length1);
+<a name="l01602"></a>01602                             filters1-&gt;<a class="code" href="classofeli_1_1_filters.html#a6343e4176fd069a285b6da83de0cd63d" title="To perform a black top hat transform with a square structuring element with the Perreault&#39;s algorithm...">black_top_hat_o1</a>(kernel_tophat_length1);
 <a name="l01603"></a>01603                         }
 <a name="l01604"></a>01604                         <span class="keywordflow">else</span> {
-<a name="l01605"></a>01605                             filters1-&gt;<a class="code" href="classofeli_1_1_filters.html#ae30eaab2d9ae2ed5275d804022d1f98a" title="Transformée chapeau haut de forme noir.">black_top_hat</a>(kernel_tophat_length1);
+<a name="l01605"></a>01605                             filters1-&gt;<a class="code" href="classofeli_1_1_filters.html#a29dbdd34e2cffc4f37b104f3fab6ead0" title="To perform a black top hat transform with a square structuring element with a na�ve algorithm...">black_top_hat</a>(kernel_tophat_length1);
 <a name="l01606"></a>01606                         }
 <a name="l01607"></a>01607                     }
 <a name="l01608"></a>01608                 }
@@ -1663,10 +1663,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a name="l01610"></a>01610             }
 <a name="l01611"></a>01611 
 <a name="l01612"></a>01612             <span class="keywordflow">if</span>( model == 2 ) {
-<a name="l01613"></a>01613                 filters1-&gt;<a class="code" href="classofeli_1_1_filters.html#a97fc1c7a9ba8b1fa2185ace083f68b64" title="Gradient morphologique avec un élement structurant carré de taille kernel_length.">morphological_gradient</a>(kernel_gradient_length1);
+<a name="l01613"></a>01613                 filters1-&gt;<a class="code" href="classofeli_1_1_filters.html#a95fcd4385d6a115af0617407d91e6901" title="To perform a morphological_gradient with a square structuring element with a na�ve algorithm.">morphological_gradient</a>(kernel_gradient_length1);
 <a name="l01614"></a>01614             }
 <a name="l01615"></a>01615 
-<a name="l01616"></a>01616             img1_filtered = filters1-&gt;<a class="code" href="classofeli_1_1_filters.html#ac4f4bf9d69abfc2db6c60b5803f1cd7f" title="Accesseur pour obtenir filtered.">get_filtered</a>();
+<a name="l01616"></a>01616             img1_filtered = filters1-&gt;get_filtered();
 <a name="l01617"></a>01617 
 <a name="l01618"></a>01618         }
 <a name="l01619"></a>01619 
@@ -5373,7 +5373,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a name="l05421"></a>05421         <span class="keywordflow">if</span>( !isRgb1 ) {
 <a name="l05422"></a>05422 
 <a name="l05423"></a>05423             <span class="comment">// pour refiltrer �  partir de l&#39;image de départ</span>
-<a name="l05424"></a>05424             filtersd1-&gt;<a class="code" href="classofeli_1_1_filters.html#a682beece7efc75a79788fbb167737abd" title="Fonction recopiant img sur filtered afin d&#39;initialiser filtered.">initialyze_filtered</a>();
+<a name="l05424"></a>05424             filtersd1-&gt;<a class="code" href="classofeli_1_1_filters.html#a4bd1f0541cb045674548e292180fff0f" title="To copy img buffer to filtered buffer.">initialyze_filtered</a>();
 <a name="l05425"></a>05425 
 <a name="l05426"></a>05426             <span class="keywordtype">double</span> elapsedTime;
 <a name="l05427"></a>05427             clock_t stopTime;
@@ -5384,67 +5384,67 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a name="l05432"></a>05432             <span class="keywordflow">if</span>( hasPreprocess2 ) {
 <a name="l05433"></a>05433 
 <a name="l05434"></a>05434                 <span class="keywordflow">if</span>( hasGaussianNoise2 ) {
-<a name="l05435"></a>05435                     filtersd1-&gt;<a class="code" href="classofeli_1_1_filters.html#a1d394b3cf175c71ccb8a91c972059755" title="Bruit blanc gaussien (additif) avec en entrée l&#39;écart-type.">gaussian_white_noise</a>(std_noise2);
+<a name="l05435"></a>05435                     filtersd1-&gt;<a class="code" href="classofeli_1_1_filters.html#a0351b099fb22a9397b27ae1661b6c836" title="To add a gaussian white noise with the standard deviation sigma.">gaussian_white_noise</a>(std_noise2);
 <a name="l05436"></a>05436                 }
 <a name="l05437"></a>05437                 <span class="keywordflow">if</span>( hasSaltNoise2 ) {
-<a name="l05438"></a>05438                     filtersd1-&gt;<a class="code" href="classofeli_1_1_filters.html#af76597a2b0609e0eb3aea5fc3fd15bcd" title="Bruit impulsionnel (poivre et sel) avec en entrée la probabilité d&#39;avoir un pixel noir ou blanc...">salt_pepper_noise</a>(proba_noise2);
+<a name="l05438"></a>05438                     filtersd1-&gt;<a class="code" href="classofeli_1_1_filters.html#a268bff23cc4814805605782aaa9e7fa6" title="To do an impulsional noise with a probabity of noise for each pixel, i.e the density.">salt_pepper_noise</a>(proba_noise2);
 <a name="l05439"></a>05439                 }
 <a name="l05440"></a>05440                 <span class="keywordflow">if</span>( hasSpeckleNoise2 ) {
-<a name="l05441"></a>05441                     filtersd1-&gt;<a class="code" href="classofeli_1_1_filters.html#a6104f117cf9d3ba9289db11ca308f241" title="Bruit speckle (multiplicatif) avec en entrée l&#39;écart-type.">speckle</a>(std_speckle_noise2);
+<a name="l05441"></a>05441                     filtersd1-&gt;<a class="code" href="classofeli_1_1_filters.html#a04349ff8309e50ed6daf714ff66f3239" title="To perform a speckle noise, a multiplicative noise into the image.">speckle</a>(std_speckle_noise2);
 <a name="l05442"></a>05442                 }
 <a name="l05443"></a>05443 
 <a name="l05444"></a>05444                 <span class="keywordflow">if</span>( hasMeanFilt2 ) {
-<a name="l05445"></a>05445                     filtersd1-&gt;<a class="code" href="classofeli_1_1_filters.html#a7e9261f6e98705a25dc33d86c2a0ab22" title="Filtre moyenneur avec la taille du masque en entrée.">mean_filtering</a>(kernel_mean_length2);
+<a name="l05445"></a>05445                     filtersd1-&gt;<a class="code" href="classofeli_1_1_filters.html#a9b4e4ebbfe46d648181eb4193d829972" title="To perform a mean filtering.">mean_filtering</a>(kernel_mean_length2);
 <a name="l05446"></a>05446                 }
 <a name="l05447"></a>05447                 <span class="keywordflow">if</span>( hasGaussianFilt2 ) {
-<a name="l05448"></a>05448                     filtersd1-&gt;<a class="code" href="classofeli_1_1_filters.html#a3686ced54f44db8b7f696655284e8d18" title="Filtrage gaussien avec la taille du masque et l&#39;écart-type en entrée.">gaussian_filtering</a>(kernel_gaussian_length2, sigma2);
+<a name="l05448"></a>05448                     filtersd1-&gt;<a class="code" href="classofeli_1_1_filters.html#a22c697b23c38bc3122975e3b923d2bf2" title="To perform a gaussian filtering with the kernel length and the standard deviation c sigma...">gaussian_filtering</a>(kernel_gaussian_length2, sigma2);
 <a name="l05449"></a>05449                 }
 <a name="l05450"></a>05450 
 <a name="l05451"></a>05451                 <span class="keywordflow">if</span>( hasMedianFilt2 ) {
 <a name="l05452"></a>05452                     <span class="keywordflow">if</span>( hasO1algo2 ) {
-<a name="l05453"></a>05453                         filtersd1-&gt;median_filtering_o1(kernel_median_length2);
+<a name="l05453"></a>05453                         filtersd1-&gt;<a class="code" href="classofeli_1_1_filters.html#a65e7324360cac62a715a61565399ad85" title="To perform a median filtering based on the Perreault&#39;s algorithm. Complexity is in O(1)...">median_filtering_o1</a>(kernel_median_length2);
 <a name="l05454"></a>05454                     }
 <a name="l05455"></a>05455                     <span class="keywordflow">else</span> {
-<a name="l05456"></a>05456                         filtersd1-&gt;<a class="code" href="classofeli_1_1_filters.html#a535438d129f42ae1bbadfd2bb3f49397" title="Filtrage médian avec la taille du masque.">median_filtering_oNlogN</a>(kernel_median_length2);
+<a name="l05456"></a>05456                         filtersd1-&gt;<a class="code" href="classofeli_1_1_filters.html#a2dff0282c738fff489f18d9173cfec24" title="To perform a median filtering based on the quick sort algorithm. Complexity is in O(kernel_length×log...">median_filtering_oNlogN</a>(kernel_median_length2);
 <a name="l05457"></a>05457                     }
 <a name="l05458"></a>05458                 }
 <a name="l05459"></a>05459                 <span class="keywordflow">if</span>( hasAnisoDiff2 ) {
-<a name="l05460"></a>05460                     filtersd1-&gt;<a class="code" href="classofeli_1_1_filters.html#ae4a65a5259b3a91a523eefdf2d90b920" title="anisotropic diffusion or Perona-Malik diffusion in 8-connex neighborhood.">anisotropic_diffusion</a>(max_itera2, lambda2, kappa2, aniso_option2);
+<a name="l05460"></a>05460                     filtersd1-&gt;<a class="code" href="classofeli_1_1_filters.html#ae4a65a5259b3a91a523eefdf2d90b920" title="To perform a Perona-Malik anisotropic diffusion with a 8-connex neighborhood.">anisotropic_diffusion</a>(max_itera2, lambda2, kappa2, aniso_option2);
 <a name="l05461"></a>05461                 }
 <a name="l05462"></a>05462 
 <a name="l05463"></a>05463                 <span class="keywordflow">if</span>( hasOpenFilt2 ) {
 <a name="l05464"></a>05464                     <span class="keywordflow">if</span>( hasO1morpho2 ) {
-<a name="l05465"></a>05465                         filtersd1-&gt;<a class="code" href="classofeli_1_1_filters.html#a37c0b4306c46ae839331d0a289a23b3c" title="Ouverture avec un élement structurant carré de taille kernel_length.">opening_o1</a>(kernel_open_length2);
+<a name="l05465"></a>05465                         filtersd1-&gt;<a class="code" href="classofeli_1_1_filters.html#a157720e1dbc58827f515de30a18b546a" title="To perform an opening with a square structuring element with the Perreault&#39;s algorithm.">opening_o1</a>(kernel_open_length2);
 <a name="l05466"></a>05466                     }
 <a name="l05467"></a>05467                     <span class="keywordflow">else</span> {
-<a name="l05468"></a>05468                         filtersd1-&gt;<a class="code" href="classofeli_1_1_filters.html#a61d984b292c4b40e362d0f5f73e3db91" title="Ouverture avec un élement structurant carré de taille kernel_length.">opening</a>(kernel_open_length2);
+<a name="l05468"></a>05468                         filtersd1-&gt;<a class="code" href="classofeli_1_1_filters.html#aab4788b300a3229c61b7cae344eb2142" title="To perform a closing with a square structuring element with a na�ve algorithm.">opening</a>(kernel_open_length2);
 <a name="l05469"></a>05469                     }
 <a name="l05470"></a>05470                 }
 <a name="l05471"></a>05471 
 <a name="l05472"></a>05472                 <span class="keywordflow">if</span>( hasCloseFilt2 ) {
 <a name="l05473"></a>05473                     <span class="keywordflow">if</span>( hasO1morpho2 ) {
-<a name="l05474"></a>05474                         filtersd1-&gt;<a class="code" href="classofeli_1_1_filters.html#a36bf83ca3c643cc0c50c185d834e382b" title="Fermeture avec un élement structurant carré de taille kernel_length.">closing_o1</a>(kernel_close_length2);
+<a name="l05474"></a>05474                         filtersd1-&gt;<a class="code" href="classofeli_1_1_filters.html#a04f01e51d6feee4246ede96f767d36c5" title="To perform a closing with a square structuring element with the Perreault&#39;s algorithm.">closing_o1</a>(kernel_close_length2);
 <a name="l05475"></a>05475                     }
 <a name="l05476"></a>05476                     <span class="keywordflow">else</span> {
-<a name="l05477"></a>05477                         filtersd1-&gt;<a class="code" href="classofeli_1_1_filters.html#aaa36b22e77856f11011ef694aff96b41" title="Fermeture avec un élement structurant carré de taille kernel_length.">closing</a>(kernel_close_length2);
+<a name="l05477"></a>05477                         filtersd1-&gt;<a class="code" href="classofeli_1_1_filters.html#a01cbcf40deec00feca16f982e3e081a2" title="To perform a closing with a square structuring element with a na�ve algorithm.">closing</a>(kernel_close_length2);
 <a name="l05478"></a>05478                     }
 <a name="l05479"></a>05479                 }
 <a name="l05480"></a>05480 
 <a name="l05481"></a>05481                 <span class="keywordflow">if</span>( hasTophatFilt2 ) {
 <a name="l05482"></a>05482                     <span class="keywordflow">if</span>( isWhiteTophat2 ) {
 <a name="l05483"></a>05483                         <span class="keywordflow">if</span>( hasO1morpho2 ) {
-<a name="l05484"></a>05484                             filtersd1-&gt;<a class="code" href="classofeli_1_1_filters.html#a8c4ae6579d2bdf40f5ca9adeaf0bccf4" title="Transformée chapeau haut de forme blanc.">white_top_hat_o1</a>(kernel_tophat_length2);
+<a name="l05484"></a>05484                             filtersd1-&gt;<a class="code" href="classofeli_1_1_filters.html#a2e3a6b4aa3329dcb021430748c83d992" title="To perform a white top hat transform with a square structuring element with the Perreault&#39;s algorithm...">white_top_hat_o1</a>(kernel_tophat_length2);
 <a name="l05485"></a>05485                         }
 <a name="l05486"></a>05486                         <span class="keywordflow">else</span> {
-<a name="l05487"></a>05487                             filtersd1-&gt;<a class="code" href="classofeli_1_1_filters.html#ad4fefd8373ef8c4cca7fe2b5b79b43ef" title="Transformée chapeau haut de forme blanc.">white_top_hat</a>(kernel_tophat_length2);
+<a name="l05487"></a>05487                             filtersd1-&gt;<a class="code" href="classofeli_1_1_filters.html#adaade4352062899127d46615a8e31b42" title="To perform a white top hat transform with a square structuring element with a na�ve algorithm...">white_top_hat</a>(kernel_tophat_length2);
 <a name="l05488"></a>05488                         }
 <a name="l05489"></a>05489                     }
 <a name="l05490"></a>05490                     <span class="keywordflow">else</span> {
 <a name="l05491"></a>05491                         <span class="keywordflow">if</span>( hasO1morpho2 ) {
-<a name="l05492"></a>05492                             filtersd1-&gt;<a class="code" href="classofeli_1_1_filters.html#ada10c0f9bfda1344681aa93c8eced069" title="Transformée chapeau haut de forme noir.">black_top_hat_o1</a>(kernel_tophat_length2);
+<a name="l05492"></a>05492                             filtersd1-&gt;<a class="code" href="classofeli_1_1_filters.html#a6343e4176fd069a285b6da83de0cd63d" title="To perform a black top hat transform with a square structuring element with the Perreault&#39;s algorithm...">black_top_hat_o1</a>(kernel_tophat_length2);
 <a name="l05493"></a>05493                         }
 <a name="l05494"></a>05494                         <span class="keywordflow">else</span> {
-<a name="l05495"></a>05495                             filtersd1-&gt;<a class="code" href="classofeli_1_1_filters.html#ae30eaab2d9ae2ed5275d804022d1f98a" title="Transformée chapeau haut de forme noir.">black_top_hat</a>(kernel_tophat_length2);
+<a name="l05495"></a>05495                             filtersd1-&gt;<a class="code" href="classofeli_1_1_filters.html#a29dbdd34e2cffc4f37b104f3fab6ead0" title="To perform a black top hat transform with a square structuring element with a na�ve algorithm...">black_top_hat</a>(kernel_tophat_length2);
 <a name="l05496"></a>05496                         }
 <a name="l05497"></a>05497                     }
 <a name="l05498"></a>05498                 }
@@ -5456,11 +5456,11 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a name="l05504"></a>05504             time_filt-&gt;setText(tr(<span class="stringliteral">&quot;time = &quot;</span>)+QString::number(elapsedTime)+<span class="stringliteral">&quot; s&quot;</span>);
 <a name="l05505"></a>05505 
 <a name="l05506"></a>05506             <span class="keywordflow">if</span>( model2 == 2 ) {
-<a name="l05507"></a>05507                 filtersd1-&gt;<a class="code" href="classofeli_1_1_filters.html#a97fc1c7a9ba8b1fa2185ace083f68b64" title="Gradient morphologique avec un élement structurant carré de taille kernel_length.">morphological_gradient</a>(kernel_gradient_length2);
+<a name="l05507"></a>05507                 filtersd1-&gt;<a class="code" href="classofeli_1_1_filters.html#a95fcd4385d6a115af0617407d91e6901" title="To perform a morphological_gradient with a square structuring element with a na�ve algorithm.">morphological_gradient</a>(kernel_gradient_length2);
 <a name="l05508"></a>05508             }
 <a name="l05509"></a>05509 
 <a name="l05510"></a>05510             <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>* img1_filtered;
-<a name="l05511"></a>05511             img1_filtered = filtersd1-&gt;<a class="code" href="classofeli_1_1_filters.html#ac4f4bf9d69abfc2db6c60b5803f1cd7f" title="Accesseur pour obtenir filtered.">get_filtered</a>();
+<a name="l05511"></a>05511             img1_filtered = filtersd1-&gt;get_filtered();
 <a name="l05512"></a>05512 
 <a name="l05513"></a>05513             <span class="keywordtype">int</span> x; <span class="comment">// column index or X-axis position</span>
 <a name="l05514"></a>05514             <span class="keywordtype">int</span> y; <span class="comment">// row index or Y-axis position</span>
@@ -5899,7 +5899,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a name="l05955"></a>05955                 }
 <a name="l05956"></a>05956 
 <a name="l05957"></a>05957                 <span class="keywordflow">if</span>( !isRgb1 ) {
-<a name="l05958"></a>05958                     img1_filtered = filters1-&gt;<a class="code" href="classofeli_1_1_filters.html#ac4f4bf9d69abfc2db6c60b5803f1cd7f" title="Accesseur pour obtenir filtered.">get_filtered</a>();
+<a name="l05958"></a>05958                     img1_filtered = filters1-&gt;get_filtered();
 <a name="l05959"></a>05959                     <span class="keywordtype">int</span> I = img1_filtered[positionX+positionY*img_width];
 <a name="l05960"></a>05960                     QColor RGB(I,I,I);
 <a name="l05961"></a>05961                     pixel_text-&gt;setText(img_str+QString::number(positionX+1)+<span class="stringliteral">&quot;,&quot;</span>+QString::number(positionY+1)+<span class="stringliteral">&quot;) = &quot;</span>+<span class="stringliteral">&quot;&lt;font color=&quot;</span>+RGB.name()+<span class="stringliteral">&quot;&gt;&quot;</span>+QString::number(I));

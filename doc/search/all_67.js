@@ -1,9 +1,9 @@
 var searchData=
 [
   ['gamma',['gamma',['../classofeli_1_1_a_cwithout_edges_y_u_v.html#a249bf1ba21819ddb9f63f0ceef8a97b2',1,'ofeli::ACwithoutEdgesYUV']]],
-  ['gaussian_5ffiltering',['gaussian_filtering',['../classofeli_1_1_filters.html#a3686ced54f44db8b7f696655284e8d18',1,'ofeli::Filters::gaussian_filtering()'],['../classofeli_1_1_filters_r_g_b.html#aa4b332475becdda7870321b99d309f4e',1,'ofeli::FiltersRGB::gaussian_filtering()']]],
-  ['gaussian_5fkernel',['gaussian_kernel',['../classofeli_1_1_active_contour.html#a0f8558877cf436d932838173ba5b8061',1,'ofeli::ActiveContour::gaussian_kernel()'],['../classofeli_1_1_filters.html#a10fe819e94045b955787e38d3c945388',1,'ofeli::Filters::gaussian_kernel()'],['../classofeli_1_1_filters_r_g_b.html#a412fa8770d3300ad65951f82fe4dbe79',1,'ofeli::FiltersRGB::gaussian_kernel()']]],
-  ['gaussian_5fwhite_5fnoise',['gaussian_white_noise',['../classofeli_1_1_filters.html#a1d394b3cf175c71ccb8a91c972059755',1,'ofeli::Filters::gaussian_white_noise()'],['../classofeli_1_1_filters_r_g_b.html#ac47b7e60e45faf7f99feb1d669db2efa',1,'ofeli::FiltersRGB::gaussian_white_noise()']]],
+  ['gaussian_5ffiltering',['gaussian_filtering',['../classofeli_1_1_filters.html#a22c697b23c38bc3122975e3b923d2bf2',1,'ofeli::Filters::gaussian_filtering()'],['../classofeli_1_1_filters_r_g_b.html#aa4b332475becdda7870321b99d309f4e',1,'ofeli::FiltersRGB::gaussian_filtering()']]],
+  ['gaussian_5fkernel',['gaussian_kernel',['../classofeli_1_1_active_contour.html#a0f8558877cf436d932838173ba5b8061',1,'ofeli::ActiveContour::gaussian_kernel()'],['../classofeli_1_1_filters.html#abfd6b12417b42693a903e35f01608969',1,'ofeli::Filters::gaussian_kernel()'],['../classofeli_1_1_filters_r_g_b.html#a412fa8770d3300ad65951f82fe4dbe79',1,'ofeli::FiltersRGB::gaussian_kernel()']]],
+  ['gaussian_5fwhite_5fnoise',['gaussian_white_noise',['../classofeli_1_1_filters.html#a0351b099fb22a9397b27ae1661b6c836',1,'ofeli::Filters::gaussian_white_noise()'],['../classofeli_1_1_filters_r_g_b.html#ac47b7e60e45faf7f99feb1d669db2efa',1,'ofeli::FiltersRGB::gaussian_white_noise()']]],
   ['geodesicac',['GeodesicAC',['../classofeli_1_1_geodesic_a_c.html',1,'ofeli']]],
   ['geodesicac',['GeodesicAC',['../classofeli_1_1_geodesic_a_c.html#ab62137626ff552ae2699082b38e9bf6b',1,'ofeli::GeodesicAC::GeodesicAC(const unsigned char *gradient_img1, int width1, int height1, bool hasEllipse1, double init_width1, double init_height1, double center_x1, double center_y1, bool hasSmoothingCycle1, int kernel_length1, double sigma1, bool hasCleaning1, int Na1, int Ns1)'],['../classofeli_1_1_geodesic_a_c.html#af87f9f263b56745c6c4bd48145338e87',1,'ofeli::GeodesicAC::GeodesicAC(const unsigned char *gradient_img1, int width1, int height1, const char *phi_init1, bool hasSmoothingCycle1, int kernel_length1, double sigma1, bool hasCleaning1, int Na1, int Ns1)']]],
   ['get_5f1st_5fuchar_5ffrom_5fuint',['get_1st_uchar_from_uint',['../classofeli_1_1_a_cwithout_edges_y_u_v.html#a33ad6e1e52f3a82f67be0a0d79c4654a',1,'ofeli::ACwithoutEdgesYUV']]],
@@ -19,7 +19,7 @@ var searchData=
   ['get_5fcoutu',['get_CoutU',['../classofeli_1_1_a_cwithout_edges_y_u_v.html#af6acd2f76a52cf4a536b1496d3f3038c',1,'ofeli::ACwithoutEdgesYUV']]],
   ['get_5fcoutv',['get_CoutV',['../classofeli_1_1_a_cwithout_edges_y_u_v.html#adb9ae5487072d90acb00b627a20998da',1,'ofeli::ACwithoutEdgesYUV']]],
   ['get_5fcouty',['get_CoutY',['../classofeli_1_1_a_cwithout_edges_y_u_v.html#a96ba7c3cd2908a1c511582719cf2cbba',1,'ofeli::ACwithoutEdgesYUV']]],
-  ['get_5ffiltered',['get_filtered',['../classofeli_1_1_filters.html#ac4f4bf9d69abfc2db6c60b5803f1cd7f',1,'ofeli::Filters::get_filtered()'],['../classofeli_1_1_filters_r_g_b.html#ab0912761ac184269d863452602beb924',1,'ofeli::FiltersRGB::get_filtered()']]],
+  ['get_5ffiltered',['get_filtered',['../classofeli_1_1_filters_r_g_b.html#ab0912761ac184269d863452602beb924',1,'ofeli::FiltersRGB']]],
   ['get_5fgradient',['get_gradient',['../classofeli_1_1_filters_r_g_b.html#a2eedad9ce4d698fa28648b7e83fc5dfc',1,'ofeli::FiltersRGB']]],
   ['get_5fhasalgostopping',['get_hasAlgoStopping',['../classofeli_1_1_active_contour.html#aabb77561db9271b00df81341f526e976',1,'ofeli::ActiveContour']]],
   ['get_5fhaslistschanges',['get_hasListsChanges',['../classofeli_1_1_active_contour.html#abdecbca7ff1f73b2b7ba52d19dfd56f3',1,'ofeli::ActiveContour']]],

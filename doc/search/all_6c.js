@@ -8,5 +8,6 @@ var searchData=
   ['list2',['list2',['../classofeli_1_1_hausdorff_distance.html#adb1d80bb1cc3360ba3ab348534fc256b',1,'ofeli::HausdorffDistance']]],
   ['list2_5flength',['list2_length',['../classofeli_1_1_hausdorff_distance.html#a62759be29b372091e009c85f5e37d700',1,'ofeli::HausdorffDistance']]],
   ['lists_5flength',['lists_length',['../classofeli_1_1_active_contour.html#aefe0738d8a43f3981d591a0cc78ed717',1,'ofeli::ActiveContour']]],
+  ['local_5fbinary_5fpattern',['local_binary_pattern',['../classofeli_1_1_filters.html#a0ef873a93af4eab1de166af4b500506b',1,'ofeli::Filters']]],
   ['lout',['Lout',['../classofeli_1_1_active_contour.html#ad372aecd98228c4277095dc84ac72656',1,'ofeli::ActiveContour']]]
 ];
