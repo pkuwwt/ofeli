@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_image_viewer.html#a96fd9d51e2d031d3f5b33b65d4ff9a24" title="Fonction appelée lors de l&#39;ouverture de la fenêtre de configuration et valider ou refuser les changem..." alt="" coords="249,81,399,108"/>
+<area shape="rect" id="node5" href="$class_image_viewer.html#acf401bda4efbef983a88725dd44118f9" title="Fonction appelée lorsqu&#39;on ouvre une image." alt="" coords="477,5,609,32"/>
+<area shape="rect" id="node7" href="$class_image_viewer.html#a248bae02a6813f81f262d10bc0770af3" title="Creation des actions de la barre de menu." alt="" coords="451,56,635,83"/>
+<area shape="rect" id="node9" href="$class_image_viewer.html#a0229d928b30e45047f3769b588bdfb6a" title="ImageViewer::apply_settings" alt="" coords="449,107,637,133"/>
+</map>

@@ -1,0 +1,17 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_image_viewer.html#a9ecccc8062258f520d252157baa76d33" title="Fonction appelée pour effectuer la segmentation." alt="" coords="319,132,449,159"/>
+<area shape="rect" id="node20" href="$class_image_viewer.html#aff8e72e2a46d5c9075fb93bdd4e2ca2a" title="Fonction appelée par tous les widgets de l&#39;onglet Preprocessing Calcule et affiche l&#39;image prétraitéé..." alt="" coords="297,323,471,349"/>
+<area shape="rect" id="node5" href="$class_image_viewer.html#a248bae02a6813f81f262d10bc0770af3" title="Creation des actions de la barre de menu." alt="" coords="797,171,981,197"/>
+<area shape="rect" id="node7" href="$class_image_viewer.html#a5a604736658d7dedd954ab889f7d9766" title="Evénement clic souris dans imageLabel (image de la fenêtre principale) permet de rentrer dans la bouc..." alt="" coords="527,5,737,32"/>
+<area shape="rect" id="node11" href="$class_image_viewer.html#a8eaa1de207bb1cae41db007060c1b4c1" title="Evénement clic souris dans imageLabel (image de la fenêtre principale) permet de rentrer dans la bouc..." alt="" coords="521,56,743,83"/>
+<area shape="rect" id="node14" href="$class_image_viewer.html#ab84ae67f37d9f71037cee08df8d81141" title="Evénement touche clavier enfoncé dans imageLabel (image de la fenêtre principale) permet de rentrer d..." alt="" coords="537,107,727,133"/>
+<area shape="rect" id="node17" href="$class_image_viewer.html#a071d2b04b8871c0ea0bbb22d8b6429c5" title="Evénement touche clavier relachée dans imageLabel (image de la fenêtre principale) permet de rentrer ..." alt="" coords="530,157,734,184"/>
+<area shape="rect" id="node9" href="$class_image_viewer.html#a2c6f91d12279607ecda198e52ab9c57e" title="Filtre des événements pour avoir le tracking au niveau du widget image de la fenêtre principale et de..." alt="" coords="808,95,971,121"/>
+<area shape="rect" id="node22" href="$class_image_viewer.html#ae8e0b8cc83b1912d036316ce07e82c83" title="Création du layout pour l&#39;onglet algorithm de la fenêtre de configuration." alt="" coords="811,373,968,400"/>
+<area shape="rect" id="node24" href="$class_image_viewer.html#a911722cb935704830903dc4213d13d77" title="Création du layout pour l&#39;onglet preprocessing de la fenêtre de configuration." alt="" coords="539,373,725,400"/>
+<area shape="rect" id="node26" href="$class_image_viewer.html#ada95ffbe72ed2b571e6a12cd2ad8134d" title="Création du layout pour l&#39;onglet display de la fenêtre de configuration." alt="" coords="559,424,705,451"/>
+<area shape="rect" id="node28" href="$class_image_viewer.html#a96fd9d51e2d031d3f5b33b65d4ff9a24" title="Fonction appelée lors de l&#39;ouverture de la fenêtre de configuration et valider ou refuser les changem..." alt="" coords="557,272,707,299"/>
+<area shape="rect" id="node30" href="$class_image_viewer.html#acf401bda4efbef983a88725dd44118f9" title="Fonction appelée lorsqu&#39;on ouvre une image." alt="" coords="823,221,955,248"/>
+<area shape="rect" id="node34" href="$class_image_viewer.html#a0229d928b30e45047f3769b588bdfb6a" title="si on clique sur le boutton Ok de settings_window les paramètres prennent leurs valeurs en fonction d..." alt="" coords="795,272,983,299"/>
+<area shape="rect" id="node37" href="$class_image_viewer.html#acf144ab7fd6d851ee0d2d9e40071d9ad" title="si on clique sur le boutton Cancel de settings_window les widgets reprennent leur état..." alt="" coords="792,323,987,349"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classofeli_1_1_active_contour.html#a7cf8243140d8ef8f72a638e9a1442dc2" title="Function called by evolve_one_iteration() for a curve smoothing or internal evolution with Fint speed..." alt="" coords="365,107,664,133"/>
+<area shape="rect" id="node5" href="$classofeli_1_1_active_contour.html#a7ec7567e8af8bc1bce4b310f7d01be72" title="To evolve the active contour of one iteration or one step. This function calls the functions do_one_i..." alt="" coords="713,56,969,83"/>
+<area shape="rect" id="node24" href="$classofeli_1_1_active_contour.html#a8eaa11cf2095e8429526170b238bae38" title="To evolve the active contour n times or n iterations." alt="" coords="717,107,966,133"/>
+<area shape="rect" id="node26" href="$classofeli_1_1_active_contour.html#adb4b25587c73924176f5ed3477ec54f7" title="To evolve directly the active contour at the final state, when hasAlgoStopping egals to true..." alt="" coords="712,157,971,184"/>
+<area shape="rect" id="node7" href="$class_image_viewer.html#a9ecccc8062258f520d252157baa76d33" title="Fonction appelée pour effectuer la segmentation." alt="" coords="1019,107,1149,133"/>
+<area shape="rect" id="node9" href="$class_image_viewer.html#a248bae02a6813f81f262d10bc0770af3" title="Creation des actions de la barre de menu." alt="" coords="1217,5,1401,32"/>
+<area shape="rect" id="node11" href="$class_image_viewer.html#a5a604736658d7dedd954ab889f7d9766" title="Evénement clic souris dans imageLabel (image de la fenêtre principale) permet de rentrer dans la bouc..." alt="" coords="1205,56,1414,83"/>
+<area shape="rect" id="node15" href="$class_image_viewer.html#a8eaa1de207bb1cae41db007060c1b4c1" title="Evénement clic souris dans imageLabel (image de la fenêtre principale) permet de rentrer dans la bouc..." alt="" coords="1198,107,1421,133"/>
+<area shape="rect" id="node18" href="$class_image_viewer.html#ab84ae67f37d9f71037cee08df8d81141" title="Evénement touche clavier enfoncé dans imageLabel (image de la fenêtre principale) permet de rentrer d..." alt="" coords="1214,157,1405,184"/>
+<area shape="rect" id="node21" href="$class_image_viewer.html#a071d2b04b8871c0ea0bbb22d8b6429c5" title="Evénement touche clavier relachée dans imageLabel (image de la fenêtre principale) permet de rentrer ..." alt="" coords="1207,208,1411,235"/>
+<area shape="rect" id="node13" href="$class_image_viewer.html#a2c6f91d12279607ecda198e52ab9c57e" title="Filtre des événements pour avoir le tracking au niveau du widget image de la fenêtre principale et de..." alt="" coords="1469,132,1632,159"/>
+</map>

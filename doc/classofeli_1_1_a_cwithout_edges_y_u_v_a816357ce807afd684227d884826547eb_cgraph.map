@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classofeli_1_1_a_cwithout_edges_y_u_v.html#a68356b357307d95e2b431bb46c0223bb" title="To initialize the 6 sums and n_in and n_out with scanning through the image." alt="" coords="366,81,637,108"/>
+<area shape="rect" id="node13" href="$classofeli_1_1_a_cwithout_edges_y_u_v.html#ae8904a4a32fa48696641066ec5ae571d" title="To calculate the means (CoutY, CoutU, CoutV) and (CinY, CinU, CinV) in O(1) or accounting for the pre..." alt="" coords="360,132,643,159"/>
+<area shape="rect" id="node5" href="$classofeli_1_1_a_cwithout_edges_y_u_v.html#a33ad6e1e52f3a82f67be0a0d79c4654a" title="To get the 1st unsigned char from an unsigned int." alt="" coords="693,5,1019,32"/>
+<area shape="rect" id="node7" href="$classofeli_1_1_a_cwithout_edges_y_u_v.html#a8542793ffe3efda9431428e66fc4037d" title="To get the 2nd unsigned char from an unsigned int." alt="" coords="691,56,1021,83"/>
+<area shape="rect" id="node9" href="$classofeli_1_1_a_cwithout_edges_y_u_v.html#acca631b215252e1af9bcfbb504ec881c" title="To get the 3rd unsigned char from an unsigned int." alt="" coords="693,107,1019,133"/>
+<area shape="rect" id="node11" href="$classofeli_1_1_a_cwithout_edges_y_u_v.html#a32ce4edd8d1b4732f19d483f59e0084c" title="To get an unsigned int with the form x/uc1/uc2/uc3 from 3 unsigned char." alt="" coords="702,157,1010,184"/>
+</map>

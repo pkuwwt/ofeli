@@ -1,0 +1,16 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classofeli_1_1_active_contour.html#a2fbcb81cc03239dae86e7a235dd64e00" title="To eliminate redundant points in Lin." alt="" coords="355,107,653,133"/>
+<area shape="rect" id="node5" href="$classofeli_1_1_active_contour.html#a0d386b50e6363f739a6d39b23fae5197" title="Constructor to initialize the active contour from geometrical parameters of an unique shape..." alt="" coords="740,56,961,83"/>
+<area shape="rect" id="node7" href="$classofeli_1_1_active_contour.html#a2ab521c583572158549d416ccc755f3a" title="Function called by evolve_one_iteration() for external or data dependant evolution with Fd speed..." alt="" coords="701,157,1000,184"/>
+<area shape="rect" id="node33" href="$classofeli_1_1_active_contour.html#a7cf8243140d8ef8f72a638e9a1442dc2" title="Function called by evolve_one_iteration() for a curve smoothing or internal evolution with Fint speed..." alt="" coords="701,107,1000,133"/>
+<area shape="rect" id="node9" href="$classofeli_1_1_active_contour.html#a7ec7567e8af8bc1bce4b310f7d01be72" title="To evolve the active contour of one iteration or one step. This function calls the functions do_one_i..." alt="" coords="1049,132,1305,159"/>
+<area shape="rect" id="node28" href="$classofeli_1_1_active_contour.html#a8eaa11cf2095e8429526170b238bae38" title="To evolve the active contour n times or n iterations." alt="" coords="1053,183,1302,209"/>
+<area shape="rect" id="node30" href="$classofeli_1_1_active_contour.html#adb4b25587c73924176f5ed3477ec54f7" title="To evolve directly the active contour at the final state, when hasAlgoStopping egals to true..." alt="" coords="1048,81,1307,108"/>
+<area shape="rect" id="node11" href="$class_image_viewer.html#a9ecccc8062258f520d252157baa76d33" title="Fonction appelée pour effectuer la segmentation." alt="" coords="1355,107,1485,133"/>
+<area shape="rect" id="node13" href="$class_image_viewer.html#a248bae02a6813f81f262d10bc0770af3" title="Creation des actions de la barre de menu." alt="" coords="1553,5,1737,32"/>
+<area shape="rect" id="node15" href="$class_image_viewer.html#a5a604736658d7dedd954ab889f7d9766" title="Evénement clic souris dans imageLabel (image de la fenêtre principale) permet de rentrer dans la bouc..." alt="" coords="1541,208,1750,235"/>
+<area shape="rect" id="node19" href="$class_image_viewer.html#a8eaa1de207bb1cae41db007060c1b4c1" title="Evénement clic souris dans imageLabel (image de la fenêtre principale) permet de rentrer dans la bouc..." alt="" coords="1534,56,1757,83"/>
+<area shape="rect" id="node22" href="$class_image_viewer.html#ab84ae67f37d9f71037cee08df8d81141" title="Evénement touche clavier enfoncé dans imageLabel (image de la fenêtre principale) permet de rentrer d..." alt="" coords="1550,107,1741,133"/>
+<area shape="rect" id="node25" href="$class_image_viewer.html#a071d2b04b8871c0ea0bbb22d8b6429c5" title="Evénement touche clavier relachée dans imageLabel (image de la fenêtre principale) permet de rentrer ..." alt="" coords="1543,157,1747,184"/>
+<area shape="rect" id="node17" href="$class_image_viewer.html#a2c6f91d12279607ecda198e52ab9c57e" title="Filtre des événements pour avoir le tracking au niveau du widget image de la fenêtre principale et de..." alt="" coords="1805,132,1968,159"/>
+</map>

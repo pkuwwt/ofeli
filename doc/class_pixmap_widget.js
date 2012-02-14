@@ -1,0 +1,27 @@
+var class_pixmap_widget =
+[
+    [ "PixmapWidget", "class_pixmap_widget.html#af77596d9172bd48a45bc33912cdb7334", null ],
+    [ "get_qimage", "class_pixmap_widget.html#ad77c9ced0e3775fcaa4ccea5d64fa97b", null ],
+    [ "get_xoffset", "class_pixmap_widget.html#ae0505647ea33b29fb79cfdd592ae0610", null ],
+    [ "get_yoffset", "class_pixmap_widget.html#a76d643b9763c6eac3d03a65a44e4b489", null ],
+    [ "get_zoomFactor", "class_pixmap_widget.html#aca9406b55c75ce5c53773fddec57d6d6", null ],
+    [ "getPixHeight", "class_pixmap_widget.html#a9a7310f81c8c17d8b91025ff3f36fb85", null ],
+    [ "getPixWidth", "class_pixmap_widget.html#ad3f226f1ad5c01ee7416d41911eb82ef", null ],
+    [ "paintEvent", "class_pixmap_widget.html#a1318ced2397b8171ca8debac53cbefb8", null ],
+    [ "set_doWheelEvent", "class_pixmap_widget.html#a09d0db2bf46f899109b9d5a8c1c19d6a", null ],
+    [ "set_hasText", "class_pixmap_widget.html#a793c595c817c63a34e212f0e51dd714c", null ],
+    [ "set_qimage", "class_pixmap_widget.html#ac32d978661e48ce0ac5072501f159473", null ],
+    [ "set_qimage0", "class_pixmap_widget.html#ad374e72093954334f346d9b80e1cca08", null ],
+    [ "set_text", "class_pixmap_widget.html#a64c92878632fb05feef4d9f83058aaf0", null ],
+    [ "set_zoomFactor", "class_pixmap_widget.html#af1871120022e5bc3c96851df0b51ff3e", null ],
+    [ "setZoomFactor", "class_pixmap_widget.html#a99e5929435edee4e57dd4824fb00cb02", null ],
+    [ "wheelEvent", "class_pixmap_widget.html#acf77b1772a7cad84be92569044be4676", null ],
+    [ "zoomFactorChanged", "class_pixmap_widget.html#a756e10b827a156674e2c94c24ad37df9", null ],
+    [ "doWheelEvent", "class_pixmap_widget.html#a3e90dd7c08f9bb5f926388422671c3eb", null ],
+    [ "hasText", "class_pixmap_widget.html#acb7e64ce97b518d85f02a40c11025cb9", null ],
+    [ "qimage", "class_pixmap_widget.html#a21e4aa6652bcc550be106a3e1ecd9d8b", null ],
+    [ "text", "class_pixmap_widget.html#a3f3df501b6825587b9a81375a5293a86", null ],
+    [ "xoffset", "class_pixmap_widget.html#addac3445a3816042b2033d5ca771a602", null ],
+    [ "yoffset", "class_pixmap_widget.html#aba988c3dc2d8eeb8436240f244be5639", null ],
+    [ "zoomFactor", "class_pixmap_widget.html#a9444cc4a4749ecf3bc48c6c012b259af", null ]
+];
