@@ -7,16 +7,16 @@ In this project, the Graphical User Interface (GUI) is clearly separated of the 
 
 GUI part in the folder _gui_ :
 
- * file [http://ofeli.googlecode.com/svn/doc/imageviewer_8cpp_source.html imageviewer.cpp] file with the class ImageViewer (dependant of the Qt4 framework)
- * file [http://ofeli.googlecode.com/svn/doc/pixmapwidget_8cpp_source.html pixmapwidget.cpp] with the class PixmapWidget (dependant of the Qt4 framework)
+ * file [http://ofeli.googlecode.com/svn/doc/imageviewer_8cpp_source.html imageviewer.cpp] file with the class ofeli::ImageViewer (dependant of the Qt4 framework)
+ * file [http://ofeli.googlecode.com/svn/doc/pixmapwidget_8cpp_source.html pixmapwidget.cpp] with the class ofeli::PixmapWidget (dependant of the Qt4 framework)
  * file [http://ofeli.googlecode.com/svn/doc/main_8cpp_source.html main.cpp]
 
 Image processing part in the folder _core_ :
 
- * file [http://ofeli.googlecode.com/svn/doc/activecontour_8cpp_source.html activecontour.cpp] with the class ActiveContour (dependant of the STL library)
- * file [http://ofeli.googlecode.com/svn/doc/ac__withoutedges_8cpp_source.html ac_withoutedges.cpp] with the class ACwithoutEdges (dependant of the STL library)
- * file [http://ofeli.googlecode.com/svn/doc/ac__withoutedges__yuv_8cpp_source.html ac_withoutedges_yuv.cpp] with the class ACwithoutEdgesYUV (dependant of the STL library)
+ * file [http://ofeli.googlecode.com/svn/doc/activecontour_8cpp_source.html activecontour.cpp] with the class ofeli::ActiveContour (dependant of the STL library)
+ * file [http://ofeli.googlecode.com/svn/doc/ac__withoutedges_8cpp_source.html ac_withoutedges.cpp] with the class ofeli::ACwithoutEdges (dependant of the STL library)
+ * file [http://ofeli.googlecode.com/svn/doc/ac__withoutedges__yuv_8cpp_source.html ac_withoutedges_yuv.cpp] with the class ofeli::ACwithoutEdgesYUV (dependant of the STL library)
  * file [http://ofeli.googlecode.com/svn/doc/geodesic__ac_8cpp_source.html geodesic_ac.cpp] with the class GeodesicAC (dependant of the STL library)
  * file [http://ofeli.googlecode.com/svn/doc/hausdorff__distance_8cpp_source.html hausdorff_distance.cpp] with the class HausdorffDistance
  * file [http://ofeli.googlecode.com/svn/doc/filters_8cpp_source.html filters.cpp] with the class ofeli::Filters (dependant of the Boost library)
- * file [http://ofeli.googlecode.com/svn/doc/filters__rgb_8cpp_source.html filters_rgb.cpp] with class FiltersRGB (dependant of the Boost library)
+ * file [http://ofeli.googlecode.com/svn/doc/filters__rgb_8cpp_source.html filters_rgb.cpp] with class ofeli::FiltersRGB (dependant of the Boost library)
