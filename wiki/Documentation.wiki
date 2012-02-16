@@ -1,7 +1,7 @@
 #labels Phase-Implementation
 =Documentation=
 
-You can find the developer's documentation [http://ofeli.googlecode.com/svn/doc/index.html Developer's here].
+You can find the developer's documentation [http://ofeli.googlecode.com/svn/doc/index.html here].
 
 =Structure=
 
