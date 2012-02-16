@@ -1,2 +1,20 @@
 #labels Phase-Implementation
 [http://ofeli.googlecode.com/svn/doc/index.html Developer's documentation]
+
+=Structure=
+
+In this project, the Graphical User Interface (GUI) is clearly separated of the image processing part.
+
+GUI part :
+
+file imageviewer.cpp file with the class ofeli::ImageViewer (dependant of the Qt4 framework)
+file pixmapwidget.cpp with the class ofeli::PixmapWidget (dependant of the Qt4 framework)
+Image processing part :
+
+activecontour.cpp file with the class ofeli::ActiveContour (dependant of the STL library)
+file ac_withoutedges.cpp with the class ofeli::ACwithoutEdges (dependant of the STL library)
+file ac_withoutedges_yuv.cpp with the class ofeli::ACwithoutEdgesYUV (dependant of the STL library)
+file geodesic_ac.cpp with the class ofeli::GeodesicAC (dependant of the STL library)
+file hausdorff_distance.cpp with the class ofeli::HausdorffDistance
+file filters.cpp with the class ofeli::Filters (dependant of the Boost library)
+file filters_rgb.cpp with class ofeli::FiltersRGB (dependant of the Boost library)
