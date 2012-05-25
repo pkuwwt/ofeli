@@ -1,4 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classofeli_1_1_a_cwithout_edges.html#a39c8f6940d7574aadec3953b4704e8af" title="To initialize the variables sum_in, sum_out, n_in and n_out with scanning through the image..." alt="" coords="313,5,556,32"/>
-<area shape="rect" id="node5" href="$classofeli_1_1_a_cwithout_edges.html#a6dd4cde332938ec033cb8a5e870ec132" title="To calculate the means Cout and Cin in O(1) or accounting for the previous updates of sum_out and sum..." alt="" coords="307,56,562,83"/>
-</map>

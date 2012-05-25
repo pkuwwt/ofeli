@@ -1,8 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classofeli_1_1_active_contour.html#a352ab5b5b6b389e9a55afa1db318dfda" title="Initialization of variables in the both constructors." alt="" coords="334,5,522,32"/>
-<area shape="rect" id="node7" href="$classofeli_1_1_active_contour.html#a2fbcb81cc03239dae86e7a235dd64e00" title="To eliminate redundant points in Lin." alt="" coords="279,56,577,83"/>
-<area shape="rect" id="node11" href="$classofeli_1_1_active_contour.html#a33de623e3a4aefe9f31b6ec28428f807" title="To eliminate redundant points in Lout." alt="" coords="275,107,581,133"/>
-<area shape="rect" id="node5" href="$classofeli_1_1_active_contour.html#a8464ac191aec1487b186a3f66b87b000" title="General initialization used for video tracking." alt="" coords="630,5,1005,32"/>
-<area shape="rect" id="node9" href="$classofeli_1_1_active_contour.html#aa48c1dcf4663b546403254294b481c12" title="To find if a current point (x,y) of Lin is redundant." alt="" coords="667,56,967,83"/>
-<area shape="rect" id="node13" href="$classofeli_1_1_active_contour.html#a4ae66c32025302590ea82814909f8020" title="To find if a current point (x,y) of Lout is redundant." alt="" coords="663,107,971,133"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$class_image_viewer.html#a1048c141e11632b725275543eba2cd83" title="Création du layout pour l&#39;onglet initialization de la fenêtre de configuration." alt="" coords="230,5,402,32"/>
-<area shape="rect" id="node5" href="$class_image_viewer.html#ac13e9685818bfb69e8f25f53bcae3ff1" title="Evénement clic souris dans le widget image de la fenêtre de paramètres." alt="" coords="208,56,424,83"/>
-<area shape="rect" id="node7" href="$class_image_viewer.html#a2c6f91d12279607ecda198e52ab9c57e" title="Filtre des événements pour avoir le tracking au niveau du widget image de la fenêtre principale et de..." alt="" coords="472,56,635,83"/>
-</map>
