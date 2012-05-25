@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classofeli_1_1_list.html#a958b02f763e5a6b912bcd3dea479048c" title="Inserts a new element at the beginning of the list." alt="" coords="249,5,391,32"/>
+<area shape="rect" id="node5" href="$classofeli_1_1_list.html#ace33d40d48d16b985767646123232ec2" title="Removes from the list container the element at the current position." alt="" coords="263,56,377,83"/>
+<area shape="rect" id="node7" href="$classofeli_1_1_list_1_1_node.html#a7cf46b4ba8336683fe6a4a0c20a6161a" title="Getter of the link to the next node." alt="" coords="440,56,611,83"/>
+<area shape="rect" id="node9" href="$classofeli_1_1_list.html#aa9e7033c3adc49c441decebf72b7b9b8" title="Sets the current link to the next link." alt="" coords="659,56,765,83"/>
+</map>
