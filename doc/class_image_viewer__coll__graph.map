@@ -1,9 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node2" href="$classofeli_1_1_geodesic_a_c.html" title="La classe fille GeodesicAC implémente spécifiquement l&#39;évolution du contour actif de Shi et Karl en u..." alt="" coords="5,853,267,1048"/>
-<area shape="rect" id="node4" href="$classofeli_1_1_active_contour.html" title="The class ActiveContour contains the implementation of the Fast&#45;Two&#45;Cycle (FTC) algorithm of Shi and ..." alt="" coords="219,6,569,626"/>
-<area shape="rect" id="node8" href="$classofeli_1_1_a_cwithout_edges.html" title="The child class ACwithoutEdges implements a function to calculate specifically the speed Fd based on ..." alt="" coords="292,751,497,1151"/>
-<area shape="rect" id="node13" href="$classofeli_1_1_a_cwithout_edges_y_u_v.html" title="The child class ACwithoutEdgesYUV implements a function to calculate specifically the speed Fd based ..." alt="" coords="521,677,727,1224"/>
-<area shape="rect" id="node6" href="$classofeli_1_1_filters_r_g_b.html" title="La classe FiltersRGB permet de filtrer des buffers images." alt="" coords="751,736,967,1165"/>
-<area shape="rect" id="node11" href="$class_pixmap_widget.html" title="{PixmapWidget\n|&#45; qimage\l&#45; zoomFactor\l&#45; xoffset\l&#45; yoffset\l&#45; hasText\l&#45; text\l&#45; doWheelEvent\l|+ PixmapWidget()\l+ set_qimage0()\l+ set_qimage()\l+ set_doWheelEvent()\l+ set_zoomFactor()\l+ get_zoomFactor()\l+ getPixWidth()\l+ getPixHeight()\l+ get_xoffset()\l+ get_yoffset()\l+ set_hasText()\l+ get_qimage()\l+ set_text()\l+ setZoomFactor()\l# paintEvent()\l# wheelEvent()\l}" alt="" coords="991,758,1141,1143"/>
-<area shape="rect" id="node16" href="$classofeli_1_1_filters.html" title="La classe Filters permet de filtrer des buffers images." alt="" coords="1167,743,1383,1158"/>
-</map>

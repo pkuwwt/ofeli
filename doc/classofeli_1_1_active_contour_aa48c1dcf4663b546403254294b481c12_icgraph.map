@@ -1,9 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classofeli_1_1_active_contour.html#a2fbcb81cc03239dae86e7a235dd64e00" title="Eliminates redundant points in Lin." alt="" coords="355,56,653,83"/>
-<area shape="rect" id="node5" href="$classofeli_1_1_active_contour.html#a7e3e74c191281574e63948737b0be84a" title="Constructor to initialize the active contour from geometrical parameters of an unique shape..." alt="" coords="740,5,961,32"/>
-<area shape="rect" id="node7" href="$classofeli_1_1_active_contour.html#a2ab521c583572158549d416ccc755f3a" title="Function called by evolve_one_iteration() for external or data dependant evolution with Fd speed..." alt="" coords="701,107,1000,133"/>
-<area shape="rect" id="node15" href="$classofeli_1_1_active_contour.html#a7cf8243140d8ef8f72a638e9a1442dc2" title="Function called by evolve_one_iteration() for a curve smoothing or internal evolution with Fint speed..." alt="" coords="701,56,1000,83"/>
-<area shape="rect" id="node9" href="$classofeli_1_1_active_contour.html#a7ec7567e8af8bc1bce4b310f7d01be72" title="Evolves the active contour of one iteration or one step. This function calls the functions do_one_ite..." alt="" coords="1049,31,1305,57"/>
-<area shape="rect" id="node11" href="$classofeli_1_1_active_contour.html#a8eaa11cf2095e8429526170b238bae38" title="Evolves the active contour n times or n iterations." alt="" coords="1053,81,1302,108"/>
-<area shape="rect" id="node13" href="$classofeli_1_1_active_contour.html#adb4b25587c73924176f5ed3477ec54f7" title="Evolves directly the active contour at the final state, when hasAlgoStopping egals to true..." alt="" coords="1048,132,1307,159"/>
-</map>
