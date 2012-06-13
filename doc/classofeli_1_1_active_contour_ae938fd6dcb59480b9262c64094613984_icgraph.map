@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classofeli_1_1_active_contour.html#a2ab521c583572158549d416ccc755f3a" title="Function called by evolve_one_iteration() for external or data dependant evolution with Fd speed..." alt="" coords="317,56,616,83"/>
-<area shape="rect" id="node5" href="$classofeli_1_1_active_contour.html#a7ec7567e8af8bc1bce4b310f7d01be72" title="Evolves the active contour of one iteration or one step. This function calls the functions do_one_ite..." alt="" coords="665,5,921,32"/>
-<area shape="rect" id="node7" href="$classofeli_1_1_active_contour.html#a8eaa11cf2095e8429526170b238bae38" title="Evolves the active contour n times or n iterations." alt="" coords="669,56,918,83"/>
-<area shape="rect" id="node9" href="$classofeli_1_1_active_contour.html#adb4b25587c73924176f5ed3477ec54f7" title="Evolves directly the active contour at the final state, when hasAlgoStopping egals to true..." alt="" coords="664,107,923,133"/>
-</map>

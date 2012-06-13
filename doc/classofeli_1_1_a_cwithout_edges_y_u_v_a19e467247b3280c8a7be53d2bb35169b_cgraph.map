@@ -1,7 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classofeli_1_1_a_cwithout_edges_y_u_v.html#a68356b357307d95e2b431bb46c0223bb" title="Initializes the six sums and n_in and n_out with scanning through the image." alt="" coords="366,5,637,32"/>
-<area shape="rect" id="node5" href="$classofeli_1_1_a_cwithout_edges_y_u_v.html#ae8904a4a32fa48696641066ec5ae571d" title="Calculates means (CoutY, CoutU, CoutV) and (CinY, CinU, CinV) in O(1) or accounting for the previous ..." alt="" coords="360,56,643,83"/>
-<area shape="rect" id="node7" href="$classofeli_1_1_a_cwithout_edges_y_u_v.html#a660a68154f8d8a7e516872b82c9cd1e9" title="Calculates component Y with a (R,G,B) value." alt="" coords="691,5,943,32"/>
-<area shape="rect" id="node9" href="$classofeli_1_1_a_cwithout_edges_y_u_v.html#a56f12dc3981c0738dff34149a2c2f1d6" title="Calculates component U with a (R,G,B) value." alt="" coords="691,56,943,83"/>
-<area shape="rect" id="node11" href="$classofeli_1_1_a_cwithout_edges_y_u_v.html#a860509166e4c75ef35e107ccdb46dec9" title="Calculates component V with a (R,G,B) value." alt="" coords="691,107,943,133"/>
-</map>
