@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Evaluate.png</file>
+        <file>Documentation.png</file>
+        <file>Langage.png</file>
+        <file>Zoom1.png</file>
+        <file>ClearList.png</file>
+        <file>RecentFile.png</file>
+        <file>Settings.png</file>
+        <file>ZoomIn.png</file>
+        <file>ZoomOut.png</file>
+        <file>Camera.png</file>
+        <file>Print.png</file>
+        <file>Ofeli_fr.qm</file>
+        <file>Ofeli.png</file>
+        <file>licence.txt</file>
+        <file>license.txt</file>
+    </qresource>
+</RCC>
