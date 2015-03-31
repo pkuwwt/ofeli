@@ -24,7 +24,7 @@ Automatically exported from code.google.com/p/ofeli
 **a developer's documentation** :
 
   * generated from the source code with [Doxygen](http://www.stack.nl/~dimitri/doxygen/index.html).
-  * documentation's link : [http://ofeli.googlecode.com/svn/doc/index.html](http://www.stack.nl/~dimitri/doxygen/index.html)
+  * documentation's link : [http://ofeli.googlecode.com/svn/doc/index.html](http://ofeli.googlecode.com/svn/doc/index.html)
 
 ## License
 
