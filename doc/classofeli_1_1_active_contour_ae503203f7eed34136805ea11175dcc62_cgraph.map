@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classofeli_1_1_list.html#a073c198f6289cff1af7224e47f60b2ea" title="Removes a node of a list and inserts at the beginning of this list. Equivalent to erase() and push_fr..." alt="" coords="323,56,477,83"/>
+<area shape="rect" id="node15" href="$classofeli_1_1_list.html#a0d93d271a1a269629dbf04e8c342cbe6" title="Gets the link at the current position." alt="" coords="309,107,491,133"/>
+<area shape="rect" id="node17" href="$classofeli_1_1_active_contour.html#a0f954c3b812913869ee24efb7f0953d4" title="Second step of procedure switch_in." alt="" coords="249,157,551,184"/>
+<area shape="rect" id="node5" href="$classofeli_1_1_list_1_1_node.html#a8f9fe4292ef4aa5f22983c48218ca8d8" title="Getter of the element." alt="" coords="616,5,789,32"/>
+<area shape="rect" id="node7" href="$classofeli_1_1_list_1_1_node.html#a7cf46b4ba8336683fe6a4a0c20a6161a" title="Getter of the link to the next node." alt="" coords="617,56,788,83"/>
+<area shape="rect" id="node12" href="$classofeli_1_1_list_1_1_node.html#a0ae8b4183842bb52f6e16d88fbfb5fa7" title="Setter of the element and the link." alt="" coords="600,107,805,133"/>
+<area shape="rect" id="node9" href="$classofeli_1_1_list.html#aa9e7033c3adc49c441decebf72b7b9b8" title="Sets the current link to the next link." alt="" coords="853,56,960,83"/>
+<area shape="rect" id="node19" href="$classofeli_1_1_list.html#a958b02f763e5a6b912bcd3dea479048c" title="Inserts a new element at the beginning of the list." alt="" coords="631,157,774,184"/>
+</map>

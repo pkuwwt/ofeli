@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$classofeli_1_1_geodesic_a_c.html" title="The child class GeodesicAC implements a function to calculate specifically speed Fd based on a geodes..." alt="" coords="127,1461,389,1670"/>
+<area shape="rect" id="node4" href="$classofeli_1_1_active_contour.html" title="The class ActiveContour contains the implementation of the Fast&#45;Two&#45;Cycle (FTC) algorithm of Shi and ..." alt="" coords="177,595,527,1229"/>
+<area shape="rect" id="node14" href="$classofeli_1_1_a_cwithout_edges.html" title="The child class ACwithoutEdges implements a function to calculate specifically speed Fd based on the ..." alt="" coords="414,1358,619,1773"/>
+<area shape="rect" id="node19" href="$classofeli_1_1_a_cwithout_edges_y_u_v.html" title="The child class ACwithoutEdgesYUV implements a function to calculate specifically speed Fd based on t..." alt="" coords="643,1307,849,1824"/>
+<area shape="rect" id="node6" href="$classofeli_1_1_list.html" title="This class implements a singly linked list used by the implementation of Shi and Karl&#39; algorithm..." alt="" coords="109,264,219,517"/>
+<area shape="rect" id="node8" href="$classofeli_1_1_list_1_1_node.html" title="This class implements a node of the class List. It is composed by an integer element and a pointer on..." alt="" coords="101,6,227,186"/>
+<area shape="rect" id="node11" href="$classofeli_1_1_filters_r_g_b.html" title="This class implements filters and noise functions for RGB images." alt="" coords="873,1351,1089,1780"/>
+<area shape="rect" id="node17" href="$classofeli_1_1_pixmap_widget.html" title="The class PixmapWidget is a Qt4 widget to display fastly an image (function drawPixmap in a PaintEven..." alt="" coords="1113,1373,1263,1758"/>
+<area shape="rect" id="node22" href="$classofeli_1_1_filters.html" title="This class implements filters and noise functions for grayscale or grey&#45;level images." alt="" coords="1289,1358,1505,1773"/>
+</map>
